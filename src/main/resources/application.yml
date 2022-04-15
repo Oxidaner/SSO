@@ -3,9 +3,9 @@ redis:
   database:
     db1: 0
     db2: 1
-  host: 82.156.15.234
-  port: 6379
-  password: 123456
+  host: 00.000.00.00
+  port: 0000
+  password: 00000
   timeout: 5000
   jedis:
     pool:
@@ -19,10 +19,10 @@ spring:
   #email
   mail:
     port: 465
-    username: le18622412361@163.com
-    password: VZESVQAXORHWCDSN
-    host: smtp.163.com
-    protocol: smtps
+    username: 00000000000@00.com
+    password: 000000000000
+    host: 000.000.com
+    protocol: 0000
     default-encoding: UTF-8
     properties:
       socketFactoryClass: javax.net.ssl.SSLSocketFactory
@@ -30,6 +30,6 @@ spring:
   #MYSQL
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://82.156.15.234:3306/sso-java?useSSL=false&useUnicode=true&characterEncoding=utf-8
-    username: sso-java
-    password: ETA4NfG5PRD6k7YC
+    url: jdbc:mysql://000000:000:000:3306/0000000?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username:000000000
+    password: 00000000000
