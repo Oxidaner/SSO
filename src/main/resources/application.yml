@@ -1,0 +1,35 @@
+# redis
+redis:
+  database:
+    db1: 0
+    db2: 1
+  host: 82.156.15.234
+  port: 6379
+  password: 123456
+  timeout: 5000
+  jedis:
+    pool:
+      max-active: 8
+      max-wait: -1
+      min-idle: 0
+      max-idle: 3
+
+# DataSource Config
+spring:
+  #email
+  mail:
+    port: 465
+    username: le18622412361@163.com
+    password: VZESVQAXORHWCDSN
+    host: smtp.163.com
+    protocol: smtps
+    default-encoding: UTF-8
+    properties:
+      socketFactoryClass: javax.net.ssl.SSLSocketFactory
+      debug: true
+  #MYSQL
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://82.156.15.234:3306/sso-java?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: sso-java
+    password: ETA4NfG5PRD6k7YC
